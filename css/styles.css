@@ -1,8 +1,6 @@
-/* Use this file to use your own styles*/
-
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap'); 
 /* Styles for the body */
 
 body {
@@ -10,19 +8,49 @@ body {
 	color: #202030;
 	background-color: #f8f8fc;
 }
-
-/* Styles for custom classes in the document. (There are more, try to find them out!) */
-
-.resume-header {
-    background-color: #e0f0ff;
+h2 {
+  color: #AF0B0B !important;
+ 
+}
+.Languagelevel .language-progress {
+	background-color: #FFFFFF !important;
 }
 
+.language-level {
+	background-color: #F79E9E !important;
+}
+
+.language-progress {
+	background-color: #AF0B0B !important;
+}
+.language-level h6 {
+  color: #FFFFFF /* Change this HEX to your desired color */
+}
+.language-level .native-text {
+  color: #FFFFFF 
+} 
+
+.language-level .advanced-text {
+  color: #FFFFFF
+} 
+.Linde-Verhees {
+	font-family: 'anton'; 
+} 
+.fst-italic.tagline {
+	font-family: 'open sans';
+}
+/* Styles for custom classes in the document. (There are more, try to find them out!) */
+.resume-header {
+    background-color: #AF0B0B;	
+	color: #FFFFFF;
+	font-family: 'Anton'; 
+} 
 .resume-main {
-	background-color: #fffefc;
+	background-color: #FFFFFF;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #FFFFFF;
 }
 
 /* Styles for lists in the document */
@@ -33,10 +61,12 @@ body {
 	display: inline-block;
 	width: 1em;
 	margin-left: -1em;
+	color: #AF0B0B
+
 }
 
-.biography-details li::before {
-	color: #EE7623;
+.biography-details li:before {
+	color: #AF0B0B;
 }
 
 .biography-details li, .skill-list li {
@@ -48,4 +78,10 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+} 
+
+.title-one {
+    font-weight: bold;
 }
+
+
